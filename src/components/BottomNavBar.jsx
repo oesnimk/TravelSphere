@@ -12,8 +12,8 @@ const BottomNavBar = () => {
   ];
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 shadow-lg">
-      <div className="flex justify-around h-16 items-center">
+    <nav className="w-full bg-white border-t border-gray-200 shadow-lg">
+      <div className="flex justify-around h-16 items-center pb-4 pt-1">
         {navItems.map((item) => (
           <NavLink
             key={item.name}

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { thematicCourse } from '../../data/homeData';
+import { thematicCourse } from '../../data/homeData'; // Corrected import path
 
 const ThematicCourseSection = () => {
   const navigate = useNavigate();
